@@ -1,0 +1,21 @@
+/*##############################################################*/
+/*SYSTEM PROGRAMMING HW02					*/
+/*Written by Yasin_Tulumen_121044020	 			*/
+/*Last update on MARCH 20, 2015					*/
+/*USAGE: ./grepFromDir directoryname				*/
+/*##############################################################*/
+
+
+PROGRAM NASIL CALISIR?
+
+1- Konsol dan ./wordcount directoryname (/home/yasin/Masaüstü/deneme) ve
+	aranacak kelime (ece) komutlari girilerek calistirilir.
+2- Eger parametrelerde hata var ise uyari vererek programdan cikis yapar.
+3- Eger herhangi bir hata yok ise verilen directory altindaki tum dosyalar
+	bulunur.
+4- Dosyalarin icerisinde maine arguman olarak gonderilen kelime aranır
+5- Bulunan kelimelerin nerede bulundugu .c dosyasi ile ayni konumdaki 
+	grepFromDir.log dosyasina yazilir.
+6- Son olarak ekrana bu kelimeden kaç tane bulundugu return edilir.
+7- Ekran ciktisi asagidaki ornektetki gibidir:
+	Total number of 'ece' in /home/yasin/Masaüstü/deneme : 4
